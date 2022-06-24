@@ -1,0 +1,31 @@
+{
+  "name": "tldraw-core",
+  "version": "0.1.0",
+  "description": "",
+  "keywords": [],
+  "main": "src/index.tsx",
+  "dependencies": {
+    "@tldraw/core": "1.4.3",
+    "@tldraw/intersect": "1.4.3",
+    "@tldraw/vec": "1.4.3",
+    "@types/react": "17.0.20",
+    "@types/react-dom": "17.0.9",
+    "immer": "9.0.6",
+    "mobx": "6.3.8",
+    "react": "17.0.2",
+    "react-dom": "17.0.2",
+    "use-immer": "0.6.0"
+  },
+  "devDependencies": {
+    "@types/react": "latest",
+    "@types/react-dom": "latest",
+    "typescript": "4.1.3"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test --env=jsdom",
+    "eject": "react-scripts eject"
+  },
+  "browserslist": [">0.2%", "not dead", "not ie <= 11", "not op_mini all"]
+}
